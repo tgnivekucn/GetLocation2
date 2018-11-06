@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         let alert = UIAlertController(title: "", message: "要求定位權限", preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "前往設定頁面", style: .default) {
             _ in
-            UIApplication.shared.open(URL(string: "App-Prefs:root=com.open.lib.GetLocation")!, options: [:], completionHandler: nil)
+            UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
             
         })
         self.present(alert, animated: true, completion: nil)
