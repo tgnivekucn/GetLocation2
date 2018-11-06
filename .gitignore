@@ -1,0 +1,11 @@
+GetLocation/Assets.xcassets/.*
+Pods/Pods.xcodeproj/xcuserdata/*
+Pods/Pods.xcodeproj/xcuserdata/
+GetLocation.xcodeproj/xcuserdata/
+GetLocation.xcodeproj/project.xcworkspace/xcuserdata/*
+GetLocation.xcodeproj/project.xcworkspace/xcshareddata/
+GetLocation.xcworkspace/xcuserdata/*
+.DS_Store
+GetLocation/.DS_Store
+GetLocation/*/.DS_Store
+
